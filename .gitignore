@@ -1,15 +1,36 @@
-# Virtual Environment
+# Virtual environments
 LangGraphVenv/
 venv/
 .venv/
-env/
 
 # Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
 
 # Environment variables
 .env
+.env.*
+
+# Logs
+*.log
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Model files
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Dataset files
+data/
+datasets/
 
 # IDE
 .vscode/
